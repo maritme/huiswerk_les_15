@@ -46,10 +46,11 @@ button:active{
     color: white;
 }
 
-input{
+input[type='text'], input[type='email'], textarea, button, label, h2{
     display: block;
     box-sizing: border-box;
     width: 300px;
+    margin: auto;
 }
 
 textarea{
